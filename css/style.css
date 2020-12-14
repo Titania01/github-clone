@@ -21,3 +21,10 @@ html,
 body {
   background-color: rgb(255, 255, 255);
 }
+
+.round {
+  height: 3rem;
+  width: 3rem;
+  background: #ffffff;
+  border-radius: 50%;
+}
