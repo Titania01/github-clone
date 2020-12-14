@@ -23,8 +23,18 @@ body {
 }
 
 .round {
-  height: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.logo1 {
   width: 3rem;
-  background: #ffffff;
-  border-radius: 50%;
+}
+
+input {
+  outline: none;
+  border: 1px solid grey;
+  height: 2.5rem;
+  width: 20rem;
+  background: none;
 }
