@@ -11,20 +11,27 @@
   box-sizing: border-box;
 }
 
-.nav {
-  background-color: rgb(36, 41, 46);
-  height: 5rem;
-  width: 100vw;
-}
-
 html,
 body {
   background-color: rgb(255, 255, 255);
+  background-repeat: no-repeat;
+}
+
+.nav {
+  background-color: rgb(36, 41, 46);
+  height: 4.5rem;
+  width: 100vw;
+  display: flex;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
 }
 
 .round {
   display: flex;
   align-items: center;
+  padding: 1rem 0 1rem 2rem;
 }
 
 .logo1 {
@@ -34,7 +41,56 @@ body {
 input {
   outline: none;
   border: 1px solid grey;
-  height: 2.5rem;
+  height: 2rem;
   width: 20rem;
   background: none;
+  border-radius: 5px;
+  margin-left: 1rem;
+}
+
+::placeholder {
+  color: white;
+  font-weight: 500;
+  padding-left: 1rem;
+}
+
+.talk {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.slash {
+  margin-left: -1.5rem;
+}
+
+.offer {
+  display: flex;
+}
+
+.bell {
+  display: flex;
+  align-items: center;
+  width: 10rem;
+  padding-left: 58rem;
+}
+
+.tita {
+  margin-left: 1rem;
+}
+
+.plus {
+  padding-left: 1rem;
+}
+
+.tita {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+}
+
+p {
+  padding-left: 1rem;
+  font-size: 14px;
+  font-weight: 700;
 }
