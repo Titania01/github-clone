@@ -20,7 +20,7 @@ body {
 .nav {
   background-color: rgb(36, 41, 46);
   height: 4.5rem;
-  width: 100vw;
+  width: 100%;
   display: flex;
   color: white;
   display: flex;
@@ -93,4 +93,14 @@ p {
   padding-left: 1rem;
   font-size: 14px;
   font-weight: 700;
+}
+
+.main {
+  padding-top: 10rem;
+}
+
+.one {
+  display: flex;
+  align-items: center;
+  margin-left: 40rem;
 }
