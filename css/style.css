@@ -114,3 +114,17 @@ span {
   top: -2rem;
   left: 15rem;
 }
+
+.smiley {
+  background: #fff;
+  border: 1px solid #ece9e9;
+  border-radius: 50%;
+  height: 2.75rem;
+  width: 2.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 31rem;
+  top: -6.85rem;
+}
