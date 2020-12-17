@@ -9,7 +9,6 @@
 html,
 body {
   background-color: rgb(255, 255, 255);
-  background-repeat: no-repeat;
 }
 
 .nav {
@@ -88,7 +87,7 @@ p {
 }
 
 .main {
-  padding-top: 10rem;
+  padding-top: 4rem;
   border-bottom: 1px solid #c5c1c1;
   padding-bottom: 1rem;
 }
