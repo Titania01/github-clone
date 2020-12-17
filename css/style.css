@@ -3,11 +3,6 @@
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
-*,
-*::before,
-*::after {
   box-sizing: border-box;
 }
 
@@ -23,9 +18,6 @@ body {
   width: 100%;
   display: flex;
   color: white;
-  display: flex;
-  flex-direction: row;
-  position: fixed;
 }
 
 .round {
@@ -97,10 +89,24 @@ p {
 
 .main {
   padding-top: 10rem;
+  border-bottom: 1px solid #c5c1c1;
+  padding-bottom: 1rem;
 }
 
 .one {
   display: flex;
   align-items: center;
-  margin-left: 40rem;
+  margin-left: 37rem;
+}
+
+.book {
+  margin-left: 2rem;
+}
+
+span {
+  margin-left: 0.5rem;
+}
+
+.image {
+  margin-top: 10rem;
 }
