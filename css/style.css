@@ -115,6 +115,10 @@ span {
   left: 15rem;
 }
 
+.avatar:hover {
+  cursor: pointer;
+}
+
 .smiley {
   background: #fff;
   border: 1px solid #ece9e9;
@@ -127,6 +131,10 @@ span {
   position: relative;
   left: 31rem;
   top: -6.85rem;
+}
+
+.smiley:hover {
+  cursor: pointer;
 }
 
 .profile {
@@ -147,6 +155,7 @@ span {
   width: 19rem;
   background-color: #fafbfc;
   border-radius: 5px;
+  margin-top: 1rem;
 }
 
 .bg:hover {
@@ -159,4 +168,14 @@ span {
   color: #312d2d;
   font-size: 14px;
   font-weight: 500;
+}
+
+.follower {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+  border-bottom: 1px solid #dbddde;
+  width: 19rem;
+  padding-bottom: 2.5rem;
+  /* justify-content: center; */
 }
