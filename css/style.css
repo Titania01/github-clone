@@ -128,3 +128,35 @@ span {
   left: 31rem;
   top: -6.85rem;
 }
+
+.profile {
+  margin-left: 15rem;
+}
+
+.name {
+  color: #5c5656;
+  font-size: 22px;
+}
+
+.bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #dbddde;
+  height: 2rem;
+  width: 19rem;
+  background-color: #fafbfc;
+  border-radius: 5px;
+}
+
+.bg:hover {
+  cursor: pointer;
+  background-color: #dbe8f5;
+  transition: 0.3s;
+}
+
+.edit {
+  color: #312d2d;
+  font-size: 14px;
+  font-weight: 500;
+}
